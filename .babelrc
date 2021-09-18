@@ -1,0 +1,13 @@
+{
+  "env": {
+    "test": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    }
+  },
+  "plugins": [
+    "transform-modern-regexp",
+    "@babel/plugin-transform-react-jsx",
+    ["@babel/plugin-proposal-class-properties", { "loose": true }]
+  ],
+  "sourceMaps": "inline"
+}
