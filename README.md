@@ -1,11 +1,11 @@
 # plugins-core
 Opinionated library for creating Hoctail UI components
 
-#Preamble
+# Preamble
 The project just recently open-sourced under MIT license, and earlier it was only available for use within the Hoctail platform.
 Library itself has a pretty stable API, as a result of almost 2 years evolution while being a closed source.
 
-#Api
+# Api
 * plugin (name, modelProperties) - create a pluginized component
   name - string that can is valid name for mobx-state-tree model name;
   modelProperties - mobx-state-tree types.model;
@@ -78,7 +78,8 @@ Foo2.create({
 In order to be rendered instantiated component should be part of the app tree, See [@hoc/app-root](https://github.com/Hoctail/app-root)
 
 
-#Base model - is a model composed with every component returned by a plugin() function. Check EventsBaseModel docs [here](https://hoctail.github.io/hoctail/module-components.EventsModel.html). Here is the list of major state fields of a Hoctail component:
+# Base model 
+Is a model composed with every component returned by a plugin() function. Check EventsBaseModel docs [here](https://hoctail.github.io/hoctail/module-components.EventsModel.html). Here is the list of major state fields of a Hoctail component:
 * innnerCss - styling of element a - component's instance.
 ``` js
 import { css } from 'styled-components'
